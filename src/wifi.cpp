@@ -329,7 +329,7 @@ WifiComInterface* wifiCom;
  *******************************************************************************/
 
 // TODO: find the right value
-// GBAtek says it is 10�s, however that value seems too small
+// GBAtek says it is 10µs, however that value seems too small
 // (MP host sends floods of data frames, clients can't keep up)
 // 100 would make more sense since CMDCOUNT is set to 166
 // that would be 16.6ms ~= 1 frame
